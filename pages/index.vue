@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- Start Breadcrumb -->
     <div>
       <h1>1. Breadcrumb</h1>
       <div>
@@ -11,6 +12,7 @@
           ]"
         />
       </div>
+      <!-- End Breadcrumb -->
     </div>
   </div>
 </template>
