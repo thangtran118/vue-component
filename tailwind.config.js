@@ -3,21 +3,26 @@ export default {
     container: {
       center: true,
     },
+    transitionDuration: {
+      DEFAULT: '200ms',
+    },
     extend: {
       colors: {
         primary: {
-          50: '#eff6ff',
-          100: '#dbebfe',
-          200: '#bfddfe',
-          300: '#92c8fe',
-          400: '#5faafb',
-          500: '#2f81f7',
-          600: '#2468ec',
-          700: '#1c53d9',
-          800: '#1d43b0',
-          900: '#1d3d8b',
-          950: '#172754',
+          DEFAULT: '#58a6ff',
+          50: '#eef6ff',
+          100: '#daebff',
+          200: '#bddcff',
+          300: '#90c7ff',
+          400: '#58a6ff',
+          500: '#3585fc',
+          600: '#1f65f1',
+          700: '#174fde',
+          800: '#1941b4',
+          900: '#1a3a8e',
+          950: '#152556',
         },
+
       },
     },
   },
