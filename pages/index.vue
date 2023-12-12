@@ -28,7 +28,24 @@ const showModal = ref(false)
         <Dialog v-model:visible="showModal" title="Dialog Header">
           <p>Dialog content</p>
         </Dialog>
-      <!-- End Dialog -->
+        <!-- End Dialog -->
+
+        <!-- Start Tab -->
+        <h1>3. Tab</h1>
+        <div>
+          <TabView>
+            <TabPanel label="Tab 1">
+              <p>Tab 1 content</p>
+            </TabPanel>
+            <TabPanel label="Tab 2">
+              <p>Tab 2 content</p>
+            </TabPanel>
+            <TabPanel label="Tab 3">
+              <p>Tab 3 content</p>
+            </TabPanel>
+          </TabView>
+        <!-- End Tab -->
+        </div>
       </div>
     </div>
   </div>
